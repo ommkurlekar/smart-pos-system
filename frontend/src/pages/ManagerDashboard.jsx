@@ -644,7 +644,7 @@ const ManagerDashboard = () => {
                                 </select>
                             </div>
                             <button
-                                onClick={() => window.open(`http://127.0.0.1:8000/api/ml/forecast-report?format=${exportForecastFormat}`)}
+                                onClick={() => window.open(`/api/ml/forecast-report?format=${exportForecastFormat}`)}
                                 style={{ width: '100%', padding: '12px', background: 'linear-gradient(135deg, #6366f1, #8b5cf6)', border: 'none', color: 'white', borderRadius: '10px', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'inherit' }}
                             >
                                 📥 Generate & Export Report
@@ -673,7 +673,7 @@ const ManagerDashboard = () => {
                                 </select>
                             </div>
                             <button
-                                onClick={() => window.open(`http://127.0.0.1:8000/api/ml/customer-report?format=${exportCustomerFormat}`)}
+                                onClick={() => window.open(`/api/ml/customer-report?format=${exportCustomerFormat}`)}
                                 style={{ width: '100%', padding: '12px', background: 'linear-gradient(135deg, #10b981, #059669)', border: 'none', color: 'white', borderRadius: '10px', fontWeight: 700, cursor: 'pointer', fontSize: '14px', fontFamily: 'inherit' }}
                             >
                                 📥 Generate & Export Report
@@ -779,7 +779,7 @@ const ManagerDashboard = () => {
                         </div>
                         <div style={{ display: 'flex', gap: '12px', justifyContent: 'space-between' }}>
                             <button
-                                onClick={() => window.open(`http://127.0.0.1:8000/api/ml/customer-card/${selectedCustomerCard.id}`)}
+                                onClick={() => window.open(`/api/ml/customer-card/${selectedCustomerCard.id}`)}
                                 style={{ flex: 1, padding: '12px', background: 'linear-gradient(135deg, #6366f1, #8b5cf6)', border: 'none', color: 'white', borderRadius: '10px', fontWeight: 700, cursor: 'pointer', fontSize: '13px', fontFamily: 'inherit', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}
                             >
                                 📥 Download PDF
