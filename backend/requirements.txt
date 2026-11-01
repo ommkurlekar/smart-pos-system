@@ -1,0 +1,13 @@
+fastapi
+motor
+pymongo
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+uvicorn
+bcrypt
+numpy
+scikit-learn
+tensorflow
+openpyxl
+reportlab
